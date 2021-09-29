@@ -1,12 +1,12 @@
 # AuthFirebase
 
-```
+```gradle
 dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
     }
 ```
 
-```
+```gradle
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
@@ -17,7 +17,7 @@ plugins {
 
 # AuthFirebase With Email
 1- Sign Up
-```
+```kotlin
     private lateinit var auth: FirebaseAuth;
     
     
